@@ -1,0 +1,85 @@
+body {
+  background-color: lightgray;
+  font-family: Arial, serif;
+}
+
+h1 {
+  text-align: center;
+  color: #0d4d0d;
+  letter-spacing: .5rem;
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  height: 15rem;
+  width: 30rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 6px -2px black;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+
+}
+
+.title {
+  background-color: #0d4d0d;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 1.4rem;
+  letter-spacing: .1rem;
+  padding: .1rem 1rem;
+}
+
+.address {
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: .6rem 1rem;
+}
+
+.street {
+  color: #0d4d0d;
+  margin: .4rem;
+  letter-spacing: .1rem;
+  font-weight: 500;
+}
+
+.postcode {
+  margin: .4rem;
+  text-align: end;
+}
+
+.contact {
+  height: 100%;
+  display: flex;
+  justify-content:start;
+  align-items: center;
+  padding: .1rem 1rem;
+}
+
+.email {
+  color: #0d4d0d;
+  margin: .4rem;
+  letter-spacing: .1rem;
+  font-weight: 700;
+  font-style: italic;
+
+}
+
+.phone {
+  margin: .4rem;
+  text-align: start;
+  letter-spacing: .1rem;
+
+}
+
+

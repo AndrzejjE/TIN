@@ -1,0 +1,99 @@
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #f1f1f1;
+  font-family: Arial, serif;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  padding: 1.3rem;
+  background: #a68a8a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3a2f1a;
+  letter-spacing: .7em;
+  font-size: 1.5rem;
+  box-shadow: 0px 0px 6px -2px black;
+}
+
+.block {
+  max-width: 50vmax;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2.5rem;
+  padding-bottom: 2.7rem;
+  gap: 2rem;
+}
+
+.block-element {
+  background-color: #e3e1e1;
+  padding: 2.5rem 3.5rem;
+  box-shadow: 0px 0px 6px -2px black;
+}
+
+.block-cover {
+  border: 1px #cbc6bf solid;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.block-title {
+  color: rgba(122, 121, 117, 0.94);
+  font-size: 1.8rem;
+  letter-spacing: .3rem;
+  padding: .5rem 1rem;
+}
+
+
+.block-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.block-group input {
+  width: 100%;
+  max-width: 25rem;
+  border: 1px #4d4236 solid;
+  padding: .6rem .4rem;
+}
+
+
+.block-button {
+  width: 5.5rem;
+  margin-left: auto;
+  padding: .5rem 1rem;
+  background-color: #9f9991;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: .1rem;
+}
+
+.block-table {
+  background-color: #e3e1e1;
+  padding: 1rem;
+  box-shadow: 0px 0px 6px -2px black;
+}
+
+td{
+  padding: 10px;
+}
+
+tr:nth-child(odd){
+  background-color: #f1f0f0;
+}
+
+tr:first-child{
+  background-color: #b7b2b1;
+}

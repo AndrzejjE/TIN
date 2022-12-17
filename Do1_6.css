@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  height: 60rem;
+  width:100%;
+}
+
+.block {
+  padding: 50px;
+  width: 10%;
+  height: 100%;
+  font-size: 3rem;
+
+}
+
+.block1 {
+  background: deeppink;
+  order: 2;
+}
+
+.block2 {
+  background: lightgoldenrodyellow;
+  order: 9;
+}
+
+.block3 {
+  background: whitesmoke;
+  order: 1;
+}
+
+.block4 {
+  background: yellow;
+  order: 3;
+}
+
+.block5 {
+  background: greenyellow;
+  order: 4;
+}
+
+.block6 {
+  background: lightskyblue;
+  order: 5;
+}
+
+.block7 {
+  background: palevioletred;
+  order: 10;
+}
+
+.block8 {
+  background: lightpink;
+  order: 6;
+}
+
+.block9 {
+  background: mediumaquamarine;
+  order: 7;
+}
+
+.block10 {
+  background: rosybrown;
+  order: 8;
+}

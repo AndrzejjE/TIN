@@ -1,0 +1,65 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: stretch;
+  align-content: center;
+  border: 10px solid #555555;
+  height:  100vh;
+}
+
+.block {
+  margin: 0;
+  color: white;
+  text-align: center;
+  height: 5vh;
+}
+
+.block1 {
+  background: deeppink;
+}
+
+.block2 {
+  background: lightgoldenrodyellow;
+}
+
+.block3 {
+  background: whitesmoke;
+
+}
+
+.block4 {
+  background: yellow;
+
+}
+
+.block5 {
+  background: greenyellow;
+
+}
+
+.block6 {
+  background: lightskyblue;
+
+}
+
+.block7 {
+  background: palevioletred;
+
+}
+
+.block8 {
+  background: lightpink;
+
+}
+
+.block9 {
+  background: mediumaquamarine;
+
+}
+
+.block10 {
+  background: rosybrown;
+}

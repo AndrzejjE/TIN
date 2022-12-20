@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.element {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+.element1 {
+ background: darkgrey;
+}
+
+.element2 {
+  background: dimgrey;
+
+}
+
+.element3 {
+ background: gray;
+}

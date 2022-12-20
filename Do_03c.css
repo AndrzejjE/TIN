@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+}
+.container {
+  display: grid;
+  height: 100vh;
+  width: 100%;
+
+}
+
+.element {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+.element1 {
+ background: darkgrey;
+}
+
+.element2 {
+  background: dimgrey;
+  align-self: center;
+  justify-self: center;
+
+}
+
+.element3 {
+ background: gray;
+  align-self: end;
+  justify-self: end;
+}

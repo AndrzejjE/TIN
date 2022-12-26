@@ -1,0 +1,19 @@
+section {
+  display: grid;
+  width: 50vw;
+  height: 50vw;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(5,1fr);
+  background: sandybrown;
+  position: absolute;
+  border: 2px solid black;
+}
+div {
+  font-size: 1.5rem;
+  color: white;
+  border: 2px solid black;
+}
+div:nth-child(even) {
+background: saddlebrown;
+
+}
